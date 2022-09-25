@@ -1,0 +1,50 @@
+.navUpper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoImg {
+  height: 40vh;
+  cursor: pointer;
+}
+
+.iconFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.socialIcons {
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: -25px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1280px) {
+  .logoImg {
+    height: 20vh;
+  }
+  .socialIcons {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+  }
+
+  .iconFlex {
+    margin-left: 0px;
+  }
+  .navUpper {
+    justify-content: space-around;
+  }
+}

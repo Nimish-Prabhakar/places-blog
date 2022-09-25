@@ -1,0 +1,29 @@
+.blogCardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 300px;
+}
+
+.blogImg {
+  height: 250px;
+  width: 300px;
+}
+
+.blogDate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .blogCardWrapper {
+    width: 200px;
+  }
+  .blogImg {
+    height: 150px;
+    width: 200px;
+  }
+}

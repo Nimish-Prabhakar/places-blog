@@ -1,0 +1,24 @@
+.privacyWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 50px;
+}
+
+.privacyWrapper p {
+  line-height: 25px;
+}
+
+.privacyWrapper li {
+  line-height: 25px;
+  margin-top: 5px;
+}
+
+.blogsPageHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
