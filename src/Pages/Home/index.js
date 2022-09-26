@@ -586,7 +586,7 @@ function Home() {
         <LazyLoadImage
           effect="blur"
           className="contactHomeImg"
-          src="https://lh3.googleusercontent.com/BJTfv6hHErEgUQpTeT4SOyd6D3X0VntSL3huOhBdrfBL_sN5dvC1UVdtcqpzUR-uMKc=w2400"
+          src="https://lh3.googleusercontent.com/UFjuoIeK-TImF37vp-IXA8Byi9rrkLqCm5cKkZVURaChL47NpYl_zfFiFZNeBFzOb2U=w2400"
           alt="contactHomeImg"
         />
       </div>
