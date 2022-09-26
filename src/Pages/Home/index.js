@@ -6,6 +6,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import TextField from '@mui/material/TextField';
 import BasicCard from '../../Components/BlogCard';
+import { useNavigate } from 'react-router-dom';
 import {
   homePageMeals1,
   homePageMeals2,
@@ -75,6 +76,8 @@ function Home() {
     user_email: '',
     message: '',
   });
+
+  const navigate = useNavigate();
 
   const [responseFetched, setResponseFetched] = useState(false);
   const [emailConfirmed, setEmailConfirmed] = useState(false);
@@ -162,25 +165,25 @@ function Home() {
           <LazyLoadImage
             className="carImages"
             effect="blur"
-            src="https://lh6.googleusercontent.com/9aKIEuAwB6DMMxKSTlb8AVqK-5BWjTjoy6CZAUXndZ_eUQ3yi_85bMT6_IeZhCz6ih8=w2400"
+            src="https://lh6.googleusercontent.com/wmFoBcNRxmR07WyFmY1XwJjEedjXyjVYuT3eTt2rDopLcajhfGVA1QdAjJaXmsgH1m4=w2400"
             alt="foodImage"
           />
           <LazyLoadImage
             className="carImages"
             effect="blur"
-            src="https://lh4.googleusercontent.com/p2VVZ7V1nFL3PvDzFaQcjzTj3zD-GGGtmtP_kgOEc2FXV1FM20WY265bGpmL-_8Kdh0=w2400"
+            src="https://lh3.googleusercontent.com/v-DDe4FeEihYwTJqLZcIdDetHVkrKGpt_PvoE7A2F7yIsizq0V33OOsr7H4RplnuoeA=w2400"
             alt="foodImage"
           />
           <LazyLoadImage
             className="carImages"
             effect="blur"
-            src="https://lh4.googleusercontent.com/pH4pVpyFXATeyV4mUS8CJFXkg0hSnv7qXRBHs95j0gOaYfZSvmmfvZUqelT6sNlIc38=w2400"
+            src="https://lh5.googleusercontent.com/IohzKUslKqrtBIdpORbUXgDm9nM0OdJMiPX8RXomHRlVuqXIJ8G3MtVAxWTcDHf3h2o=w2400"
             alt="foodImage"
           />
           <LazyLoadImage
             className="carImages"
             effect="blur"
-            src="https://lh5.googleusercontent.com/LwegPraMbvMoQR8kaNzAMMQCe8883xb4n-mYRUSG8Yjvs4Yfnc6hDEOof3t9BFJOEm8=w2400"
+            src="https://lh6.googleusercontent.com/2pb5iP9qRuqTiZ23DEAO-_QZgBXbBmkmhad1cXM2D04T2Bd7FLjgDmwGdlGk1yguf3M=w2400"
             alt="foodImage"
           />
         </div>
@@ -188,25 +191,25 @@ function Home() {
           <LazyLoadImage
             className="carImages"
             effect="blur"
-            src="https://lh6.googleusercontent.com/exTolAIIRXefe7wjwbHLwyY1Iwh62QuRgoe3ciMzibrwbnP5x0M7_xStrQJQ2Dsbzts=w2400"
+            src="https://lh6.googleusercontent.com/jo5cQ5NCElbQzzT8XIgcdHdkKTzAQ_og7Mu9KuGcApVWUE0mbwpIDb5CgiDrfX__BjI=w2400"
             alt="foodImage"
           />
           <LazyLoadImage
             className="carImages"
             effect="blur"
-            src="https://lh3.googleusercontent.com/j38ScpYDPLTPzCZ3iiefbWbuPjAgbo6C63XEMTeRnfwLCS0twRd_YBy0snmlg_M_qSw=w2400"
+            src="https://lh6.googleusercontent.com/H-PxZ0afFzoLgqeOfaKhNDtvOS3q90_bOl0_KOhO6VUQNfdaEbqvvb_q2ELHSHox4ZI=w2400"
             alt="foodImage"
           />
           <LazyLoadImage
             className="carImages"
             effect="blur"
-            src="https://lh3.googleusercontent.com/papCgXUyyuasSETepTIhiRIk8hneEeYUPf5RiGMmCjVwandXihpkuWNVVIOxDczraM4=w2400"
+            src="https://lh6.googleusercontent.com/-MdQT1oB9cVJG6_bL93BCIU1EtLsX-GAVsWRckZeW7alPVemj1k5sbSntfVk76imSAw=w2400"
             alt="foodImage"
           />
           <LazyLoadImage
             className="carImages"
             effect="blur"
-            src="https://lh4.googleusercontent.com/e7mtvoimtYeRcZZRGeVExRF4W8_0-ORR9j0nTm4MsoSOjxLqxbC1nYJcxDlANP2zNkY=w2400"
+            src="https://lh6.googleusercontent.com/R7Okm7jV7LEwlbdmFdmPjDr_ez3hDRIAflFUgrf3WESn_Fv08NFEApenpxbp7RoMa_c=w2400"
             alt="foodImage"
           />
         </div>
@@ -219,29 +222,27 @@ function Home() {
       <div className="homeHeaderWrapper">
         <div className="homeHeaderContent">
           <p className="homeHeaderSubContent">
-            These blogs are for anyone who loves to cook and for everyone who
-            doesn’t.
+            These blogs are for anyone who loves to travel and wants to explore
+            the world.
           </p>
           <p className="homeHeaderSubContent">
-            Here you'll find a collection of some of the most ethnic rich
-            cuisines from around the world.
+            Here you'll find a collection of some of the most iconic places on
+            Earth and the rich history associated with them.
           </p>
           <p className="homeHeaderSubContent">
-            Each cuisine has a story to tell, and you will learn about the
-            origins of some of your favourite meals and the rich history behind
-            them.
+            Each ancient place has a story to tell, and you will learn about the
+            origins of some of these places and how they have stood the test of
+            time.
           </p>
           <p className="homeHeaderSubContent">
-            Unfold your napkins and be ready on a journey down the foodey lane
-            and let's explore whats it like to dine across the globe.
+            pack your bagpacks and be ready on a journey down the explorer lane
+            and let's travel to some of the most iconic places ever.
           </p>
-          <p className="homeHeaderSubContent">
-            Throughout these articles, the words 'Cuisine', 'Food' and 'Meals'
-            have been used interchangebly, hope you don't mind &#128521; and
-            don't get confused by the nomenclature, all these words have common
-            meaning.
-          </p>
-          <Button sx={{ marginTop: '50px' }} variant="outlined">
+          <Button
+            onClick={() => navigate('/about')}
+            sx={{ marginTop: '50px' }}
+            variant="outlined"
+          >
             Learn more about us --&gt;
           </Button>
         </div>
@@ -249,7 +250,7 @@ function Home() {
           <LazyLoadImage
             effect="blur"
             className="homeHeaderImg"
-            src="https://lh5.googleusercontent.com/ixR8aP5vJ85n5xyuRqkadPU9Eovo9JwHqPR1SXWlOwtvkqiNsUD8dLFb8WBdpW7DUVM=w2400"
+            src="https://lh6.googleusercontent.com/kiqMDjpAFGpAy0uPrgjxYFxGX3rtcsGxyzAonv2Tk3q6j5geqbddaTSONaBgX5cv4O4=w2400"
             alt="homeHeaderImg"
           />
         </div>
@@ -260,7 +261,7 @@ function Home() {
           variant="h4"
           gutterBottom
         >
-          Best Cuisines From Different Continents
+          Best places from around the world
         </Typography>
       </div>
       <div data-aos="fade-right" className="continentsWrapper">
@@ -269,7 +270,7 @@ function Home() {
             <div className="content-overlay"></div>
             <img
               className="contImages"
-              src="https://lh5.googleusercontent.com/aMP2-Y7huc-kB2ogfqIDuefVsMHQCNPFxT_OM9NL2iZiq5LuZFovKmOJqnt8o8dRyPQ=w2400"
+              src="https://lh3.googleusercontent.com/h5uUEU0VrFw7MM-6PKS79rwC4hRt_1fiv_iZc6arY568LZ8Ik0cHx72VS4-MaDKlOj0=w2400"
               alt="foodImage"
             />
             <div className="middle">
@@ -279,11 +280,12 @@ function Home() {
             </div>
             <div className="content-details fadeIn-bottom">
               <p className="content-list">
-                &#x2022; Asia shelters largest cultures and cuisines.
+                &#x2022; Asia is a continent so full of intrigue, adventure,
+                solace and spirituality.
               </p>
               <p className="content-list">
-                &#x2022; Ingredients like Rice, Ginger, Garlic, Chilies, Dried
-                Onions are used in almost all Asian foods.
+                &#x2022; There are 48 countries in Asia today, according to the
+                United Nations with around 5 billion population.
               </p>
               <Button
                 sx={{ color: 'white', marginTop: '20px' }}
@@ -300,7 +302,7 @@ function Home() {
 
             <img
               className="contImages"
-              src="https://lh4.googleusercontent.com/J7U4o9HlldOixpZ_jcroha3qT-eEK6uo1H6l_FfhQrj6x9_sFIy9a1mOSSeG1LAftQ4=w2400"
+              src="https://lh6.googleusercontent.com/fyjsdXqdLJzh4fZz_k3KpZjMLSEqLER3LvH9HqfUCwAi4cbNY9uVhiiu2N7gnzGT_98=w2400"
               alt="foodImage"
             />
             <div className="middle" style={{ left: '40%' }}>
@@ -310,12 +312,13 @@ function Home() {
             </div>
             <div className="content-details fadeIn-bottom">
               <p className="content-list">
-                &#x2022; North American Cuisine includes foods native to
-                countries such as Canadian cuisine, American cuisine.
+                &#x2022; The heart of North America beats through towering
+                forests, undulating fields, high-plain deserts, pulsating
+                metropolises and offbeat oases.
               </p>
               <p className="content-list">
-                &#x2022;The colonization of North America brought European,
-                African and Asian cuisine to the region.
+                &#x2022;There are 23 countries in North America with a
+                population of 300 million.
               </p>
               <Button
                 sx={{ color: 'white', marginTop: '20px' }}
@@ -332,7 +335,7 @@ function Home() {
 
             <img
               className="contImages"
-              src="https://lh4.googleusercontent.com/thOAyhFQUuhLUMBXNuukK9TMog5SbNcj-qAHWC3uOXruT0U-53rlGREMdpaAQrItoiQ=w2400"
+              src="https://lh4.googleusercontent.com/tqYuFvoVt81j6dCopiRDIwlJbmHV1jlCBA4soYXjJWPbWC0EG_MbqmaP-FmrS2DFk3s=w2400"
               alt="foodImage"
               loading="lazy"
             />
@@ -343,13 +346,13 @@ function Home() {
             </div>
             <div className="content-details fadeIn-bottom">
               <p className="content-list">
-                &#x2022; The roots of African cuisine goes back thousands of
-                years to the Bronze Age in Northeast Africa.
+                &#x2022; Africa. There's nowhere like it on the planet for
+                wildlife, wild lands and rich traditions that endure. Prepare to
+                fall in love.
               </p>
               <p className="content-list">
-                &#x2022; Traditionally, the various cuisines of Africa use a
-                combination of plant and seed based, and do not usually have
-                food imported.
+                &#x2022; There are 54 countries in North America with a
+                population of 1.3 billion
               </p>
               <Button
                 sx={{ color: 'white', marginTop: '20px' }}
@@ -372,7 +375,7 @@ function Home() {
 
             <img
               className="contImages"
-              src="https://lh3.googleusercontent.com/VLD7StzDlmycQaCcBFY48lQUnaeOx8IvRnbdv4tPVnAEyZTad_7IvzMKZRNyE5gvh90=w2400"
+              src="https://lh6.googleusercontent.com/8J7VWcaoE9grpWlSUWTppwOvckyaVXhupzF3AFS8Z78BRWXsec58ei0e_KC_YTEurQ8=w2400"
               alt="foodImage"
             />
             <div className="middle" style={{ left: '35%' }}>
@@ -382,12 +385,13 @@ function Home() {
             </div>
             <div className="content-details fadeIn-bottom">
               <p className="content-list">
-                &#x2022; South American cuisine has many influences, due to the
-                ethnic fusion of South America..
+                &#x2022; Andean peaks, Amazonian rainforest, Patagonian
+                glaciers, Incan ruins, white-sand beaches and vertiginous
+                nightlife: the wonders of South America.
               </p>
               <p className="content-list">
-                &#x2022; The Amazon basin of South America provides a plethora
-                of fresh fish and tropical fruits and vegetables.
+                &#x2022; There are 12 countries in North America with a
+                population of 400 million.
               </p>
               <Button
                 sx={{ color: 'white', marginTop: '20px' }}
@@ -401,10 +405,9 @@ function Home() {
         <div className="contImg">
           <a href="/europe">
             <div className="content-overlay"></div>
-
             <img
               className="contImages"
-              src="https://lh3.googleusercontent.com/CfNlv9vxeHsDR3vygDGCyDQUaZTW_OcJiUXd7jd5XVgwxu1O6Z2KkspwgS9Hd_YGs_c=w2400"
+              src="https://lh6.googleusercontent.com/hHvSJn60c96pWuPidUVBdOneLuayOVMna0GORXYMfClpCMw2qXlpdTjv1q3VSyTvjyo=w2400"
               alt="foodImage"
             />
             <div className="middle">
@@ -414,13 +417,13 @@ function Home() {
             </div>
             <div className="content-details fadeIn-bottom">
               <p className="content-list">
-                &#x2022; European cuisine comprises the cuisines of Europe
-                including the cuisines brought to other countries by European
-                settlers and colonists.
+                &#x2022; There simply is no way to tour Europe and not be
+                awestruck by its natural beauty, epic history and dazzling
+                artistic and culinary diversity.
               </p>
               <p className="content-list">
-                &#x2022; Historically, European cuisine has been developed in
-                the European royal and noble courts..
+                &#x2022; There are 44 countries in North America with a
+                population of 500 million.
               </p>
               <Button
                 sx={{ color: 'white', marginTop: '20px' }}

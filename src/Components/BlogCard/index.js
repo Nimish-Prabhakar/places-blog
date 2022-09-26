@@ -27,10 +27,10 @@ export default function BasicCard({ img, name, time, origin, para, url }) {
           {name}
         </Typography>
         <Typography gutterBottom variant="subtitle1" component="div">
-          • Origin : {origin}
+          • Country : {origin}
         </Typography>
         <Typography gutterBottom variant="subtitle1" component="div">
-          • Best Time to Eat : {time}
+          • Best Time to Visit : {time}
         </Typography>
         <Typography gutterBottom variant="subtitle2" component="div">
           {para}
