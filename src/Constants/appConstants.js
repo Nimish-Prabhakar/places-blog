@@ -90,55 +90,55 @@ export const homePageMeals3 = [
 
 export const asianPageDishes1 = [
   {
-    name: 'Dim Sum',
-    img: 'https://lh3.googleusercontent.com/4H78PlIzQjlnRQI85YGCtiqG6Guq1CpqMQPDzgZD2eWe--5BF1dSZLc-P-N4J5BZ7w0=w2400',
-    subHeader: 'From the silk roads of China',
+    name: 'Angkor Wat',
+    img: 'https://lh3.googleusercontent.com/uE1QBckg5smfTWaYch3bCnO7Q2qHrJ-ja9tNzjcJeHLgxQmurFh38an7_33-XJLJJWQ=w2400',
+    subHeader: 'temple complex in Cambodia',
   },
   {
-    name: 'Biryani',
-    img: 'https://lh4.googleusercontent.com/o296AImZorKc7JWMdX0Glc0fyHLoh7OzvxOcsAU9LnVbGcUu-wXxQdyRShwICPF7eK4=w2400',
-    subHeader: 'Flavored Rice from Iran',
+    name: 'Great Wall Of China',
+    img: 'https://lh3.googleusercontent.com/mOacCNjnMiLCcm_2tgiD4aXb6UMaKmg44NQgcJvBMh2DLoRyfDGwD-b7afyHUOjDeBY=w2400',
+    subHeader: 'Longest Wall on Earth',
   },
   {
-    name: 'Sushi',
-    img: 'https://lh6.googleusercontent.com/jW8KjvjIax7q8p9avPpKbxBttf458-NSUMt4x4LYrns0SVm4dCqyH_kNs8matSL9vU4=w2400',
-    subHeader: 'Delicious seafood from Japan',
+    name: 'Kinkakuji Temple',
+    img: 'https://lh4.googleusercontent.com/DoEa6dwVl3NAy1r-VPMB0Uu1wLumjzEtozyCHE0rpanRJGbOmm2xWEt9ZBEhH0ET44U=w2400',
+    subHeader: 'A Zen Buddhist temple',
   },
 ];
 
 export const asianPageDishes2 = [
   {
-    name: 'Kimchi',
-    img: 'https://lh6.googleusercontent.com/8zfb14Wjth7yVV6_8n4d9G7kfFPTaXQDdaZDjpJ8mXV8wupabwwUuAfe1bnVFYHRdHE=w2400',
-    subHeader: 'Titillating spicy dish from Korea',
+    name: 'Kuta Beach',
+    img: 'https://lh5.googleusercontent.com/iMfl1SRQpLOE-7hcRKpwxb5ESmtsbGRAvJo9YD9dpxCqqcX6elIo45G3V3rgmEDC7jo=w2400',
+    subHeader: 'Beach in Kuta, Indonesia',
   },
   {
-    name: 'Ramen',
-    img: 'https://lh5.googleusercontent.com/AQph-764kHVb5I2uxCTHQDfwLeL_3HqrNBluxFXNGgug_iVB07jfcD_zv9yrlXypf6U=w2400',
-    subHeader: 'Noodle soup from streets of Japan',
+    name: 'Maldives',
+    img: 'https://lh3.googleusercontent.com/-XhkoxOD6ljbvDJ6iTbgtHvunUMVrCTvUjiTiKPg2-T7LlbYm5K2C7WqyIDDoiT3Y3c=w2400',
+    subHeader: 'the tropical paradise',
   },
   {
-    name: 'Yakiniku',
-    img: 'https://lh5.googleusercontent.com/2MiwViXy1nckbg-xb3n81PcYQggpRcJgD7-MInMYS_s_fmHt0V9baHh4CIeiSVveHIY=w2400',
-    subHeader: 'bite-sized meat from Japan',
+    name: 'Taj Mahal',
+    img: 'https://lh3.googleusercontent.com/AzsZ8fVdfkf3f1gIjPtHZMmUVsUJCYBK-vmXK9L-NeR6EqvoYmEkf_YLL1jX3J5uMOQ=w2400',
+    subHeader: 'symbol of Indias rich history',
   },
 ];
 
 export const asianPageDishes3 = [
   {
-    name: 'Roti',
-    img: 'https://lh4.googleusercontent.com/pR0Thl38DgUPgml9g0VK7lwq3_uPCnxuHWrO262gsW98I0gMsqN1CEJHovsikJujcDI=w2400',
-    subHeader: 'Flat and unleavened bread from India',
+    name: 'Palawan Beach',
+    img: 'https://lh4.googleusercontent.com/Qs57X8uZi-5WM4ltxsUl6OMzhG453lMBvMBN6sqct1kGepUkMOaqLJvX_VaK3uaG-Fo=w2400',
+    subHeader: 'sand beach of Sentosa Island',
   },
   {
-    name: 'Onigiri',
-    img: 'https://lh3.googleusercontent.com/BaPQwzaAfIgYNMcQM7vuDxbwJOlMyssIGswDm6pvUAJO4ELMW2Vrblihncr9iEEqiHE=w2400',
-    subHeader: 'Chewy rice bowls from Japan',
+    name: 'Tian Tan',
+    img: 'https://lh3.googleusercontent.com/pMo7cW4bmOKLRrwFwUWzuaNStPFtLA6XDId5nh0MzMwvw6Ubo9bRger8yKrBGNSMO4g=w2400',
+    subHeader: 'Buddha statue in Hong Kong',
   },
   {
-    name: 'Pho',
-    img: 'https://lh6.googleusercontent.com/28xFL_h6_oC-OURubh28nLskV3oFvun0ZYi4NKWxJlW7vxLUBoyNxoqEGJrqCUCKwdo=w2400',
-    subHeader: 'Noodle soup from Vietnam',
+    name: 'Tigers Nest',
+    img: 'https://lh3.googleusercontent.com/DxY7FtM-m-KTcj-9ERaUlw8qjP-7s4cUj5znazlZIyVR8trOAPo9wZv_1cgcWTyA7uo=w2400',
+    subHeader: 'A Himalayan Buddhist site',
   },
 ];
 

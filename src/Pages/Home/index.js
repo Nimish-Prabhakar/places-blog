@@ -63,12 +63,12 @@ AOS.init({
 });
 
 function Home() {
-  // React.useEffect(() => {
-  //   window.scrollTo(0, 0);
-  //   fetch(
-  //     'https://karkhana-studio-backend.onrender.com/api/data?location=Asia&food=dimsum'
-  //   ).then((response) => response.json());
-  // }, []);
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+    fetch(
+      'https://karkhana-studio-backend.onrender.com/api/data?location=Asia&food=dimsum'
+    ).then((response) => response.json());
+  }, []);
 
   const [formField, setFormField] = useState({
     first_name: '',

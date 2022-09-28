@@ -21,7 +21,7 @@ function Asia() {
     <>
       <div className="homeContinent">
         <Typography sx={{ letterSpacing: '10px' }} variant="h3" gutterBottom>
-          Asian Cuisine
+          Asian Places
         </Typography>
       </div>
       <div
@@ -30,17 +30,19 @@ function Asia() {
       >
         <div className="homeHeaderContent">
           <p className="homeHeaderSubContent">
-            When we think of Asian cuisine, we think of dishes that are exotic,
-            delicious, and rich in flavors and spices.
+            Tourism in Asia is growing faster than anywhere else in the world,
+            driven by the increasing wealth of countries like Taiwan, South
+            Korea and Malaysia, and by the huge populations of China, India and
+            Indonesia.
           </p>
           <p className="homeHeaderSubContent">
-            Asia, being the world’s biggest and most populous continent, is home
-            to a diverse range of cultures, each with its own distinct cuisine.
+            Asian Tourism is a unique book and the first to addresses this
+            imbalance by providing a high quality edited collection of chapters
+            which explore the domestic and intraregional tourism in Asia.
           </p>
           <p className="homeHeaderSubContent">
-            Rice is a staple starch in almost all Asian dietary cultures.
-            Different types of rice are popular in different parts of the
-            region.
+            The land of hidden gems, unexplored grasslands, temple towns,
+            bustling streets and golden beaches; this is Asia Tourism for you.
           </p>
         </div>
         <LazyLoadImage
@@ -62,23 +64,26 @@ function Asia() {
         />
         <div className="homeHeaderContent">
           <p className="homeHeaderSubContent">
-            Asian cuisine evolution did not happen by itself. It occurred due to
-            European colonies migrating to the northeast and southwest.
+            From lip smacking spicy curries that will wake you up to the comfort
+            of hot, bite-sized momos; Asia will fill not just your stomach but
+            your heart too.
           </p>
           <p className="homeHeaderSubContent">
-            Vietnam, Laos, and Cambodia, for instance, were under French
-            colonies.Malaysia was under the British colony, whereas Indonesia
-            was ruled by the Dutch colony.
+            Get ready to taste the many cultures of this land as you explore
+            this vast continent and its many flavours. We assure you that there
+            will never be a dull moment when you are in Asia!
           </p>
           <p className="homeHeaderSubContent">
-            It all ended up enhancing the original southeast cuisine, and
-            introducing additional components that are now part Asian cuisine.
+            Many Asian countries such as India, China and Japan are reputed
+            world over for their rich history, variety of cultures and
+            traditions. Here are some of Asia’s famous places that you must
+            visit if you wish to witness the remnants of some of them:
           </p>
         </div>
       </div>
       <div className="homeContinent" style={{ marginBottom: '40px' }}>
         <Typography sx={{ letterSpacing: '5px' }} variant="h5" gutterBottom>
-          Some of the most famous cuisines from the subcontinent of Asia
+          Some of the most famous places from the subcontinent of Asia
         </Typography>
       </div>
       <div className="continentPageCardsFlex">
