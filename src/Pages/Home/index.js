@@ -63,12 +63,12 @@ AOS.init({
 });
 
 function Home() {
-  React.useEffect(() => {
-    window.scrollTo(0, 0);
-    fetch(
-      'https://karkhana-studio-backend.onrender.com/api/data?location=Asia&food=dimsum'
-    ).then((response) => response.json());
-  }, []);
+  // React.useEffect(() => {
+  //   window.scrollTo(0, 0);
+  //   fetch(
+  //     'https://karkhana-studio-backend.onrender.com/api/data?location=Asia&food=dimsum'
+  //   ).then((response) => response.json());
+  // }, []);
 
   const [formField, setFormField] = useState({
     first_name: '',
@@ -270,7 +270,7 @@ function Home() {
             <div className="content-overlay"></div>
             <img
               className="contImages"
-              src="https://lh3.googleusercontent.com/h5uUEU0VrFw7MM-6PKS79rwC4hRt_1fiv_iZc6arY568LZ8Ik0cHx72VS4-MaDKlOj0=w2400"
+              src="https://lh4.googleusercontent.com/p5cfedlCmkIsSfr0efzr6V9nTOfjBI_-WZOJzUUEnegGwIOYKOHBvS0On1fCxuISl-4=w2400"
               alt="foodImage"
             />
             <div className="middle">
@@ -407,7 +407,7 @@ function Home() {
             <div className="content-overlay"></div>
             <img
               className="contImages"
-              src="https://lh6.googleusercontent.com/hHvSJn60c96pWuPidUVBdOneLuayOVMna0GORXYMfClpCMw2qXlpdTjv1q3VSyTvjyo=w2400"
+              src="https://lh5.googleusercontent.com/dAr1o37htgi9Y4GE1uPL3Arat56hobiNqsaQJrwyGvpRuHC-uc1pA2KcSJ92BjjxTGQ=w2400"
               alt="foodImage"
             />
             <div className="middle">
@@ -441,7 +441,7 @@ function Home() {
           variant="h4"
           gutterBottom
         >
-          Famous Meals From Around The World
+          Famous Destinations From Around The World
         </Typography>
       </div>
       <div className="topDishesHome">
