@@ -174,54 +174,54 @@ export const viewMoreAsia2 = [
 
 export const naPageDishes1 = [
   {
-    name: 'Buffalo Wings',
-    img: 'https://lh5.googleusercontent.com/iTtChvcTFb4Iq_B84Guqzye3Zqf08cKCBsxUtz8_z-p6JJEDNHdBKl7yHk_9AJCA38g=w2400',
-    subHeader: 'Chicken wings dipped in sauce',
+    name: 'Grand Canyon',
+    img: 'https://lh3.googleusercontent.com/m0yx8lFu3bnsnbkfqo__tRYRBQC3lNa1zkYqfjTLeVl3O9sntPMQ-xRinzgKDmCnwuQ=w2400',
+    subHeader: 'Incredible natural attraction',
   },
   {
-    name: 'Mac And Cheese',
-    img: 'https://lh5.googleusercontent.com/KBacrIZtqQQHnqPx2DHR54tlJL-uGZ7Cvur9-wf9wL4fFZZb69OSqCnMhofjTsQX8PM=w2400',
-    subHeader: 'Mix of Macaroni and melted cheese',
+    name: 'Niagara Falls',
+    img: 'https://lh3.googleusercontent.com/v3BbHOax1q1RJO2cqdKSL50owIM3nxWskjn4hxXGZApxU0ny_B7fSC3RN_AiVWxoyuI=w2400',
+    subHeader: 'Gem of a waterfall',
   },
   {
-    name: 'Brownies',
-    img: 'https://lh4.googleusercontent.com/cejQo5W0Zty2_Cf3lmmahAO8EB7y_2k8Dh-nGmlwUP2eBHrZ5qPSOXPk5ggHEsWt428=w2400',
-    subHeader: 'Deliciously dense chocolate cake',
+    name: 'Statue of Liberty',
+    img: 'https://lh5.googleusercontent.com/cMJrrQgrpdm4DwRPTw5qOJRgHeH9UMDXEnkmPI1PdwhNB60kBRUtBNb5KAesjy5Xo6k=w2400',
+    subHeader: 'Universal symbol of freedom',
   },
 ];
 
 export const naPageDishes2 = [
   {
-    name: 'Cupcake',
-    img: 'https://lh6.googleusercontent.com/s5HxZnOqnicPir03bhxPshf4oi0HMpp5R__2NU0RHqqcenNdpKxovHhLm23lQE1Qwo4=w2400',
-    subHeader: 'Tiny cake baked in paper',
+    name: 'Mount Rushmore',
+    img: 'https://lh3.googleusercontent.com/ksUVxxfU1tNqvYBHQqbNN8scDNP-WvXW6SlcfneyEAm2ud7hbsqj9VYX7yUExaL8zso=w2400',
+    subHeader: 'National Memorial',
   },
   {
-    name: 'Barbecue',
-    img: 'https://lh5.googleusercontent.com/kXFD1YgsvOzrlz8mU2KeIqMansCWCt2iKla5d_RDEJq6ddsWSamUYoLhQKm5Rmm3Fl8=w2400',
-    subHeader: 'Smoke-cooking meat',
+    name: 'Las Vegas Strip',
+    img: 'https://lh5.googleusercontent.com/4fVzUycox25KjbpZAv7pOWFWSRXEI9WAepsRJL7G9SFxjnn9Mjtc_Tn3qTzwSbSdtj8=w2400',
+    subHeader: 'An amusement park for adults',
   },
   {
-    name: 'Cheeseburger',
-    img: 'https://lh4.googleusercontent.com/lVPzT7EMDV35VEdUGzAn2oHBiu-scL3gllXlPtMzeVkYjSzi6I6wgIwYbH5M6wKeiEA=w2400',
-    subHeader: 'Slice of cheese in burger',
+    name: 'Golden Gate Bridge',
+    img: 'https://lh3.googleusercontent.com/CbzsviH0A41BefrrqX2xYpmF3Rb0ExXhKsK7U_bKtBhxcBBwo76HennxT1ehBEMfNNc=w2400',
+    subHeader: 'A Californian icon',
   },
 ];
 
 export const naPageDishes3 = [
   {
-    name: 'Surf and Turf',
-    img: 'https://lh4.googleusercontent.com/99JN6Ao7NPDNIM3_DGECOLvMTukzTOW1re32r9pHOAWUrNfNKtyF2yXYTzksfcayEDM=w2400',
-    subHeader: 'Mix of meat and seafood',
+    name: 'Banff National Park',
+    img: 'https://lh5.googleusercontent.com/vezMy0PZDYdygaFTXwPZnskhp8MyQhyvRWkY1Ex68KbUq5I216p696jfA-dtjMaOwu8=w2400',
+    subHeader: 'Heart of the majestic Rocky Mountains',
   },
   {
-    name: 'Maine Lobster',
-    img: 'https://lh5.googleusercontent.com/BUT_UysfOKln1TtA97mfV0jO0vag1zL8jZJ7i3cPHEKp22No5StH33k1fQM01xI0B3M=w2400',
+    name: 'Ottawa Parliament Hill',
+    img: 'https://lh4.googleusercontent.com/iP5z7ES4HjPrszCeOe86xRBk2is5rHICHUxnE7ogWFg-cwQ4AGAQkW_R7MPuU9ATXsM=w2400',
     subHeader: 'Not your typical lobster',
   },
   {
-    name: 'Crab Cake',
-    img: 'https://lh6.googleusercontent.com/3dneTX933PsY-e8tLzpyn5KAMo67qm50w87Caum6rJKxxhfqevAEdrZWF-56aJrv7cs=w2400',
+    name: 'Bay of Fundy',
+    img: 'https://lh6.googleusercontent.com/oPIVRuvHL45sCkE5BN9Mu97eXR6bceGL0ZH2K-cfpOhckKwAZrM80L6mgQCgWkeuqAc=w2400',
     subHeader: 'Fishcake with shellfish meat',
   },
 ];

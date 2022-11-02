@@ -19,7 +19,7 @@ function SingleMealPage() {
     let continent = window.location.pathname.split('/')[1];
     continent = continent.charAt(0).toUpperCase() + continent.slice(1);
     fetch(
-      `https://karkhana-studio-backend.onrender.com/api/data?location=${continent}&food=${dish}`
+      `https://karkhana-studio-backend.onrender.com/api/data?location=${continent}&food=${dish}&source=Places`
     )
       .then((response) => response.json())
       .then((data) => {
