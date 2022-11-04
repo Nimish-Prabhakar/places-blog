@@ -18,7 +18,7 @@ function Africa() {
     <>
       <div className="homeContinent">
         <Typography sx={{ letterSpacing: '10px' }} variant="h3" gutterBottom>
-          African Cuisine
+          Africa
         </Typography>
       </div>
       <div
@@ -27,17 +27,19 @@ function Africa() {
       >
         <div className="homeHeaderContent">
           <p className="homeHeaderSubContent">
-            The roots of African cuisine goes back thousands of years to the
-            Bronze Age in Northeast Africa, when early civilisations began
-            cultivating grains such as barley and wheat.
+            The simmering sun sinks beneath the delicate stretch of a baobab
+            tree as the first notes of the Lion King’s soundtrack play. It’s
+            that iconic image that many of us carry as our first introduction to
+            the massive and marvellous continent
           </p>
           <p className="homeHeaderSubContent">
-            Traditionally, the various cuisines of Africa use a combination of
-            plant and seed based, and do not usually have food imported.
+            This is Africa – a continent so diverse, packed full of beautiful
+            countries, backed by a rich heritage and tinged with a complex and
+            painful past.
           </p>
           <p className="homeHeaderSubContent">
-            In some parts of the continent, the traditional diet features an
-            abundance of root tuber products
+            The chance to explore its corners is a gift. Each slice of this
+            content, each sliver is a revelation.
           </p>
         </div>
         <img
@@ -57,26 +59,21 @@ function Africa() {
         />
         <div className="homeHeaderContent">
           <p className="homeHeaderSubContent">
-            Central Africa, East Africa, North Africa, Southern Africa and West
-            Africa each have distinctive dishes, preparation techniques, and
-            consumption mores.
+            Africa is one of the largest continents in the world, both in terms
+            of people and land. The continent has 50 countries, several diverse
+            landscapes, and countless tribes and ethnic groups.
           </p>
           <p className="homeHeaderSubContent">
-            The influence of African foodways on Caribbean, Brazilian and
-            American Lowcountry cuisine, and Cajun cuisine from Louisiana is
-            seen in rice dishes and green stews like the Afro-Caribbean efo,
-            duckanoo and calaloo.
-          </p>
-          <p className="homeHeaderSubContent">
-            With their distinctive taste and features African cuisine has maade
-            its way acroos the world and now is famous among many big
-            restaurants.
+            This makes it a prime tourist destination, with a myriad of local
+            places for travel, which you will find explored in detail in this
+            Africa travel guide. Let’s take a look at the highlights of Africa
+            Tourism:
           </p>
         </div>
       </div>
       <div className="homeContinent" style={{ marginBottom: '40px' }}>
         <Typography sx={{ letterSpacing: '5px' }} variant="h5" gutterBottom>
-          Some of the most famous cuisines from the subcontinent of Africa
+          Some of the most famous Places from the subcontinent of Africa
         </Typography>
       </div>
       <div className="continentPageCardsFlex">
