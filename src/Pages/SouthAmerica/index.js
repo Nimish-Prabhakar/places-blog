@@ -74,7 +74,7 @@ function SouthAmerica() {
       </div>
       <div className="homeContinent" style={{ marginBottom: '40px' }}>
         <Typography sx={{ letterSpacing: '5px' }} variant="h5" gutterBottom>
-          Some of the most famous cuisines from South America
+          Some of the most famous places from South America
         </Typography>
       </div>
       <div className="continentPageCardsFlex">

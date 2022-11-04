@@ -272,37 +272,50 @@ export const africaPageDishes3 = [
 
 export const europePageDishes1 = [
   {
-    name: 'Steak Tartare',
-    img: 'https://lh6.googleusercontent.com/NrhqwEMIJvskH27uSci9o9FkirJjpBC6led0q9RLJSeJc_xOUOKLmF30j_g23lkgoss=w2400',
-    subHeader: 'slashed raw beef with salt',
+    name: 'Eiffel Tower',
+    img: 'https://lh5.googleusercontent.com/y2FncZvyo-A8ErVXXq3lDQvGRwLAtpMHmTwvEPn8VGaxikievVe8v8EmWcNMxqVZOEA=w2400',
+    subHeader: 'One of the 7 wonder',
   },
   {
-    name: 'Waffles',
-    img: 'https://lh5.googleusercontent.com/nAy0YbFEJyPC_Vy0MNaHbGvXLcRI9_hPpZswOq3Q_9jUpEaUwUvG5DlIRDxgEJ36now=w2400',
-    subHeader: 'Delicious cakes from Belgium',
+    name: 'Colosseum',
+    img: 'https://lh5.googleusercontent.com/sRsS9rgFJMeoyfTpli2HjosXNezkC4FlLsW3wMAaG4pnVbrZvzAGQODmjo9Wm2mqtD8=w2400',
+    subHeader: 'Battlefield for Gladiators',
   },
   {
-    name: 'Pizza',
-    img: 'https://lh4.googleusercontent.com/tghCAyWzIwjQPjIvQD8vR-59x1QyWqZeoqrAWnE-1h_oea0o_QBOUBo-v7jCej8FEek=w2400',
-    subHeader: 'Greatest creation ever !!',
+    name: 'Acropolis',
+    img: 'https://lh4.googleusercontent.com/oD3iZxxyCIzECr8IdbEvl2R-ouG8PcNrltiz46dO4izCqA8gS8ecaiLd4hV0Z76rlCM=w2400',
+    subHeader: 'Temple of Athena',
   },
 ];
 
 export const europePageDishes2 = [
   {
-    name: 'Ajvar',
-    img: 'https://lh4.googleusercontent.com/VpkzFtlr7WkxBMQlSzW3aQZKHvwo5sehaIo6r6WZflVd4SEJ3iePu2BtQnvcL1x0KDc=w2400',
+    name: 'Stonehenge',
+    img: 'https://lh6.googleusercontent.com/CixmmxaO6m6s0lKb9lJtUUNgIilqbhtu7fSZzeLJctE5B98eGsNtyHYWg--ZIBz2YDM=w2400',
     subHeader: 'peppers-and-eggplant relish',
   },
   {
-    name: 'Pastel De Belem',
-    img: 'https://lh4.googleusercontent.com/qom112fe3lJASiPk03ikEj0dvrbgs2a2rFO6Rxjl6drVjdF3XTuhZ8t-DpvdJH5dKk4=w2400',
-    subHeader: 'Portuguese egg custard tart',
+    name: 'Louvre Museum',
+    img: 'https://lh6.googleusercontent.com/3k7ItEU-NJJ9amPnRqFLR6gkZffQaHgrEsYmGVpwEF0vaB8zO0I2txH6o_K-ey-0jMQ=w2400',
+    subHeader: 'Largest Art Meuseum',
   },
   {
-    name: 'Oysters',
-    img: 'https://lh5.googleusercontent.com/MGF1G8olBhcvtEqS4FUx49sNmf_hMuZwUXlHIHiWLYeRol_fkeS8d3_hwWDLvusMrNw=w2400',
-    subHeader: 'Healthy food from marine',
+    name: 'Prague Castle',
+    img: 'https://lh3.googleusercontent.com/4BGwgJIWQP0V2DKA1TrVazSPGaQ1QXFFl8cj0DqrScaInOUJoWfomsuigOonw3DFasM=w2400',
+    subHeader: 'Castle from Prague',
+  },
+];
+
+export const europePageDishes3 = [
+  {
+    name: 'Temple Of Hera',
+    img: 'https://lh3.googleusercontent.com/KKquxcVnUkYkYBLCxNdKdMd0UAPq9xtp_4f-c-P1znDR1fxXgn2SUUaLSHoIZWAtF68=w2400',
+    subHeader: 'Old Greek Monument',
+  },
+  {
+    name: 'Parthenon',
+    img: 'https://lh5.googleusercontent.com/XStB9s-gyTpu7TbJnwW5DdMxoifiNhtJR2kk5ZQcNztWkeZE92dSrPr97mc_alAZwl0=w2400',
+    subHeader: 'An Acropolis temple',
   },
 ];
 
