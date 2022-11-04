@@ -19,7 +19,7 @@ function Europe() {
     <>
       <div className="homeContinent">
         <Typography sx={{ letterSpacing: '10px' }} variant="h3" gutterBottom>
-          European
+          Europe
         </Typography>
       </div>
       <div

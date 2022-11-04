@@ -229,17 +229,17 @@ export const naPageDishes3 = [
 export const africaPageDishes1 = [
   {
     name: 'Cape Town',
-    img: 'https://lh6.googleusercontent.com/fGboWdwO_Jmqk2ZE-Nk_wXpjGamQmxiLCdAoSaGS8m_B7EhED9Eb7XchXS15eA1eM50=w2400',
+    img: 'https://lh6.googleusercontent.com/XYCwCt4niD4YNAhvSOSnbzoHI5k5E79XX60BFEfYXEElN43V_qrDTgth0CXZR8m30U4=w2400',
     subHeader: 'Beautiful city located in South',
   },
   {
     name: 'Victoria Falls',
-    img: 'https://lh3.googleusercontent.com/M_svt-zAvALrx_f5aKFI_WKY6oJpGsngMXDKbUNRDjDzw0c13pUm-Ez7_6gJrUEudkQ=w2400',
+    img: 'https://lh3.googleusercontent.com/JldXi-Gojc9Fx7Q_CbjCiS19paLOg1__ukYaxD9gS6y5KMeK9JDM1J8Wm8tpQnoyUvk=w2400',
     subHeader: 'Majestic falls from Zimbawe',
   },
   {
     name: 'Mount Kilimanjaro',
-    img: 'https://lh5.googleusercontent.com/g6gzG589_kNAyi2uCD-MO3kEoRSZ_p3gU1crOVeYhVZR6yDewMj1WgYwxbuxcBkoc1s=w2400',
+    img: 'https://lh5.googleusercontent.com/p0BUgQUchAnpJ4p2cNtWxBJV2WxF5YxB0HOaCLMkkVOdw02ysExWa8yYGfMs3bpJeWI=w2400',
     subHeader: 'Heaven for trekers',
   },
 ];
@@ -247,17 +247,17 @@ export const africaPageDishes1 = [
 export const africaPageDishes2 = [
   {
     name: 'Okavango Delta',
-    img: 'https://lh6.googleusercontent.com/48pGuThnt7aIzXwMIqImCRwAl6h0uDEE8-7uTW1thPNz7tFZG9MzHSgQlyscqb69EXM=w2400',
+    img: 'https://lh4.googleusercontent.com/IOJk4bg_VPSZY3VKIcQFtNJZS2rn_mst0yW-5C-fJaHLhJ5WjlNTD0CJ2XSXpxzQZ8U=w2400',
     subHeader: 'Vast River delta',
   },
   {
     name: 'Zanzibar',
-    img: 'https://lh5.googleusercontent.com/QjctnpvGByE3jNJAdKAARFbh_8Oo8V1_NwGCMoR6iaz4J8I5oaKPpuYSan6SiwIutQ0=w2400',
+    img: 'https://lh5.googleusercontent.com/ud5lBHKOhqEyjbCxUs4w1Efol6AUGpFxd1O_6tPswdMza6_0-0yChJoyV7haEoxY1aY=w2400',
     subHeader: 'Pristine Beach Beauty',
   },
   {
     name: 'Pyramid',
-    img: 'https://lh5.googleusercontent.com/JiXoKm-I3isl8yyojegWNvga8hq-10Z8lSuJXbQ716ZYbl-awL_CJ9hTVX4SICGbVzQ=w2400',
+    img: 'https://lh6.googleusercontent.com/p7H6qFiEMY2WaRvyaYXqo2Qcp-AZBTcmUgpZpQDFNqqADmPmKyzZPUNiUujFHaNXyd0=w2400',
     subHeader: 'A world wonder',
   },
 ];

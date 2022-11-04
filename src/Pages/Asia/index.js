@@ -21,7 +21,7 @@ function Asia() {
     <>
       <div className="homeContinent">
         <Typography sx={{ letterSpacing: '10px' }} variant="h3" gutterBottom>
-          Asian Places
+          Asia
         </Typography>
       </div>
       <div

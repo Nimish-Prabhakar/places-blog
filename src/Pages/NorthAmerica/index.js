@@ -19,7 +19,7 @@ function NorthAmerica() {
     <>
       <div className="homeContinent">
         <Typography sx={{ letterSpacing: '10px' }} variant="h3" gutterBottom>
-          North American Cuisine
+          North America
         </Typography>
       </div>
       <div
