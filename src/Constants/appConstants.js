@@ -337,7 +337,7 @@ export const southAmPageDishes2 = [
   },
   {
     name: 'Cusco',
-    img: 'https://lh5.googleusercontent.com/9rtOtUJPrXCjw_nMInDNSSY12TCF1REeZPeIioho-Kb_AHdTYqTotDMnxrQ-qdGKudo=w2400',
+    img: 'https://lh4.googleusercontent.com/WDvt28JPe5OxtglmKp1OXwvKfPPDwBo04OX2GRGfq_kAAIwEe46nLcNDUNLmt1SxYBQ=w2400',
     subHeader: 'Colorful city of Peru',
   },
 ];
