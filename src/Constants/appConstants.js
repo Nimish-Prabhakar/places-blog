@@ -54,7 +54,7 @@ export const homePageMeals2 = [
     origin: 'Peru',
     img: 'https://lh5.googleusercontent.com/yEqz6aZMSzhk3pjbkqR_6c0AQZG-zqzT9aKQsSaztZlZzxWzBVa-goqx9e37fWcrV8U=w2400',
     fade: 'left',
-    url: 'africa/sacsayhuaman',
+    url: 'southAmerica/sacsayhuaman',
   },
 ];
 
@@ -215,50 +215,58 @@ export const naPageDishes3 = [
     subHeader: 'Heart of the majestic Rocky Mountains',
   },
   {
-    name: 'Ottawa Parliament Hill',
+    name: 'Ottawa Parliament Hall',
     img: 'https://lh4.googleusercontent.com/iP5z7ES4HjPrszCeOe86xRBk2is5rHICHUxnE7ogWFg-cwQ4AGAQkW_R7MPuU9ATXsM=w2400',
-    subHeader: 'Not your typical lobster',
+    subHeader: 'Canada Parliament',
   },
   {
     name: 'Bay of Fundy',
     img: 'https://lh6.googleusercontent.com/oPIVRuvHL45sCkE5BN9Mu97eXR6bceGL0ZH2K-cfpOhckKwAZrM80L6mgQCgWkeuqAc=w2400',
-    subHeader: 'Fishcake with shellfish meat',
+    subHeader: 'Bay Of Canada',
   },
 ];
 
 export const africaPageDishes1 = [
   {
-    name: 'Braai',
+    name: 'Cape Town',
     img: 'https://lh6.googleusercontent.com/fGboWdwO_Jmqk2ZE-Nk_wXpjGamQmxiLCdAoSaGS8m_B7EhED9Eb7XchXS15eA1eM50=w2400',
-    subHeader: 'African style barbecue',
+    subHeader: 'Beautiful city located in South',
   },
   {
-    name: 'Tajine',
+    name: 'Victoria Falls',
     img: 'https://lh3.googleusercontent.com/M_svt-zAvALrx_f5aKFI_WKY6oJpGsngMXDKbUNRDjDzw0c13pUm-Ez7_6gJrUEudkQ=w2400',
-    subHeader: 'Stew and cooking vessel',
+    subHeader: 'Majestic falls from Zimbawe',
   },
   {
-    name: 'Couscous',
+    name: 'Mount Kilimanjaro',
     img: 'https://lh5.googleusercontent.com/g6gzG589_kNAyi2uCD-MO3kEoRSZ_p3gU1crOVeYhVZR6yDewMj1WgYwxbuxcBkoc1s=w2400',
-    subHeader: 'Tiny, light, tender grains',
+    subHeader: 'Heaven for trekers',
   },
 ];
 
 export const africaPageDishes2 = [
   {
-    name: 'Tameya',
+    name: 'Okavango Delta',
     img: 'https://lh6.googleusercontent.com/48pGuThnt7aIzXwMIqImCRwAl6h0uDEE8-7uTW1thPNz7tFZG9MzHSgQlyscqb69EXM=w2400',
-    subHeader: 'Protein-packed chickpea fritters',
+    subHeader: 'Vast River delta',
   },
   {
-    name: 'Pastilla',
+    name: 'Zanzibar',
     img: 'https://lh5.googleusercontent.com/QjctnpvGByE3jNJAdKAARFbh_8Oo8V1_NwGCMoR6iaz4J8I5oaKPpuYSan6SiwIutQ0=w2400',
-    subHeader: 'Stuffed pastry from Morocco',
+    subHeader: 'Pristine Beach Beauty',
   },
   {
-    name: 'Wat',
+    name: 'Pyramid',
     img: 'https://lh5.googleusercontent.com/JiXoKm-I3isl8yyojegWNvga8hq-10Z8lSuJXbQ716ZYbl-awL_CJ9hTVX4SICGbVzQ=w2400',
-    subHeader: 'A spicy stew made with berbere',
+    subHeader: 'A world wonder',
+  },
+];
+
+export const africaPageDishes3 = [
+  {
+    name: 'Kruger National Park',
+    img: 'https://lh6.googleusercontent.com/48pGuThnt7aIzXwMIqImCRwAl6h0uDEE8-7uTW1thPNz7tFZG9MzHSgQlyscqb69EXM=w2400',
+    subHeader: 'Vast River delta',
   },
 ];
 
@@ -300,37 +308,50 @@ export const europePageDishes2 = [
 
 export const southAmPageDishes1 = [
   {
-    name: 'Taco',
-    img: 'https://lh5.googleusercontent.com/nsmIidNKxfZcdmDLTt1gz16tIKV7CY9dWe67UnYuTZ2OgEuvdN63_1z2M-w6v8K1DrI=w2400',
-    subHeader: 'National dish of Mexico',
+    name: 'Machu Picchu',
+    img: 'https://lh6.googleusercontent.com/F6_QZOXHorO-3pYfZpsainWigOKFYK1aJenlbf2kP5CAL6JegURr7kDXflSOTc2vCB0=w2400',
+    subHeader: 'A seven wonder',
   },
   {
-    name: 'Milanesa',
-    img: 'https://lh4.googleusercontent.com/T3oj2IsQE9RSzYs4lhKw5-j7Z1wRDh7j3GXmhYjqBdWaEqrVeFvXDC4ezM3892tC2uk=w2400',
-    subHeader: 'Argentina unofficial national dish',
+    name: 'Iguazu Falls',
+    img: 'https://lh4.googleusercontent.com/7p1DE8YC6GzzmijGJFOavFWC2-l7oIri028agJgvTzRWbqivWZW-ouYqTy1G6FAbmy8=w2400',
+    subHeader: 'Breathtaking waterfalls',
   },
   {
-    name: 'Picanha',
-    img: 'https://lh5.googleusercontent.com/LQlhiX9Fw5QzA59gfFb06SMvLtC7J0fOXiw2DlG8poW5_XfVS2FTibwlJ8HmRforv1M=w2400',
-    subHeader: 'fresh cut of beef',
+    name: 'Galapagos Islands',
+    img: 'https://lh4.googleusercontent.com/lgPGhPFpAU-qtMvSfuOmUa-uegrKeFLH4tvFxm1HMV3bbN6URSKtR6Y3d5W_RhkYCN8=w2400',
+    subHeader: 'Natural Coastal islands',
   },
 ];
 
 export const southAmPageDishes2 = [
   {
-    name: 'Parrilla',
-    img: 'https://lh4.googleusercontent.com/9A3dleAIwkA7oQcWl-0zjmVSxMUJnHP5xi6FjoQiDg4YZ-5y-SPQaUTBrIOSbmy-wTM=w2400',
-    subHeader: 'steakhouse and meat preparation',
+    name: 'Sugarloaf Mountain',
+    img: 'https://lh6.googleusercontent.com/7Q4SVI4LC-M8zM1cCe-uBKf4Pqbkq13YknNSQ8FB2UcmJpjc4EKGHT3dl6-d0JTCuIg=w2400',
+    subHeader: 'Scetanic Mountain View',
   },
   {
-    name: 'Ceviche',
-    img: 'https://lh4.googleusercontent.com/xbceEIx0evZv0hUVvkmOrhit-NSMndjpV4fPVjxTI6HCBfZvCULBNguuvennxMyWfUM=w2400',
-    subHeader: 'National dish of Peru',
+    name: 'Christ Statue',
+    img: 'https://lh5.googleusercontent.com/9rtOtUJPrXCjw_nMInDNSSY12TCF1REeZPeIioho-Kb_AHdTYqTotDMnxrQ-qdGKudo=w2400',
+    subHeader: 'A seven wonder',
   },
   {
-    name: 'Churrasco',
-    img: 'https://lh5.googleusercontent.com/x6JRw5NhZ0QBaIhVmo-UuIvj-dZVbh9aGOhF0GjaWbvFOkWSPFaUjmdUrYiK70fG6Nk=w2400',
-    subHeader: ' Brazilian barbecue method',
+    name: 'Cusco',
+    img: 'https://lh5.googleusercontent.com/9rtOtUJPrXCjw_nMInDNSSY12TCF1REeZPeIioho-Kb_AHdTYqTotDMnxrQ-qdGKudo=w2400',
+    subHeader: 'Colorful city of Peru',
+  },
+];
+
+export const southAmPageDishes3 = [
+  {
+    name: 'Chichen Itza',
+    img: 'https://lh5.googleusercontent.com/Ts0i7zUQeUlfppHy6q88XDGwSl6ihylLDfqcRiPEz8YcW_4s4jNTSYjBvEbbytI_OBM=w2400',
+    subHeader: 'Ancient Maya City',
+  },
+  {
+    name: 'Sacsayhuaman',
+    img: 'https://lh5.googleusercontent.com/TN_mC05MiNrurg-JX01-oMTJissFYstf0obpC3njRR4WWLPx9rbWI1pnRNVcHA4LzpU=w2400',
+    subHeader: 'Fortess of Cutan',
   },
 ];
 

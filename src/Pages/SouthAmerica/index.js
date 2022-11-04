@@ -3,6 +3,7 @@ import Typography from '@mui/material/Typography';
 import {
   southAmPageDishes2,
   southAmPageDishes1,
+  southAmPageDishes3,
   viewMoreAsia1,
   viewMoreAsia2,
 } from '../../Constants/appConstants';
@@ -18,7 +19,7 @@ function SouthAmerica() {
     <>
       <div className="homeContinent">
         <Typography sx={{ letterSpacing: '10px' }} variant="h3" gutterBottom>
-          South American Cuisine
+          South America
         </Typography>
       </div>
       <div
@@ -27,18 +28,17 @@ function SouthAmerica() {
       >
         <div className="homeHeaderContent">
           <p className="homeHeaderSubContent">
-            Products coming from the Amazon are characteristic of South American
-            flavors, such as quinoa and thousands of sorts of potatoes.
+            South America tourism packages are designed covering the above
+            mentioned haunts and activities. Some might even include additional
+            destinations.
           </p>
           <p className="homeHeaderSubContent">
-            The Southern tip bordering the Pacific is known for seafood, notably
-            dishes like ceviche or grilled fish.
+            South America is a large and geographically diverse continent
+            situated in the southern part of the western hemisphere.
           </p>
           <p className="homeHeaderSubContent">
-            Is South American cuisine synonymous with hearty hand-rolled pasta
-            dishes popular in Argentina or with the fresh lemon-cilantro flavor
-            of Peruvian ceviche? Both are key but are based on an array of
-            cultural and culinary influences
+            South America tours can be easily planned with the sheer variety of
+            choices available.
           </p>
         </div>
         <img
@@ -58,17 +58,17 @@ function SouthAmerica() {
         />
         <div className="homeHeaderContent">
           <p className="homeHeaderSubContent">
-            Eastern European potato salad, Italian gnocchi, French croissants,
-            and Spanish saffron-onion sauces are all part of today’s South
-            American cooking.
+            Using the various suggestions offered, one can plan and enjoy a
+            vacation to this fabulous continent with minimum hassles.
           </p>
           <p className="homeHeaderSubContent">
-            South American cuisine is a blend of indigenous, African, Spanish
-            and Portuguese roots.
+            The continent boasts of having one of the world’s highest peaks, the
+            Andes, and one of the world’s longest rivers, the Amazon.
           </p>
           <p className="homeHeaderSubContent">
-            All the different immigrants brought their customs and foods, which
-            fused with the native cultures to create creole cuisine.
+            South America is a continent entirely in the Western Hemisphere and
+            mostly in the Southern Hemisphere, with a relatively small portion
+            in the Northern Hemisphere at the northern tip of the continent.
           </p>
         </div>
       </div>
@@ -91,6 +91,18 @@ function SouthAmerica() {
       </div>
       <div className="continentPageCardsFlex">
         {southAmPageDishes2.map((val) => {
+          return (
+            <Blog
+              continent="southAmerica"
+              name={val.name}
+              img={val.img}
+              subHeader={val.subHeader}
+            />
+          );
+        })}
+      </div>
+      <div className="continentPageCardsFlex">
+        {southAmPageDishes3.map((val) => {
           return (
             <Blog
               continent="southAmerica"
