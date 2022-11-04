@@ -46,7 +46,7 @@ function SingleMealPage() {
               infiniteLoop={true}
               showStatus={false}
               showThumbs={false}
-              showIndicators={true}
+              showIndicators={false}
               width="50%"
             >
               {fetchedData.images.map((img) => {
