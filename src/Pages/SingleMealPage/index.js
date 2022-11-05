@@ -6,18 +6,21 @@ import Flag from 'react-world-flags';
 import { viewMoreAsia1, viewMoreAsia2 } from '../../Constants/appConstants';
 import ViewMoreCard from '../../Components/viewMoreCard';
 import CircularProgress from '@mui/material/CircularProgress';
+import MetaTags from 'react-meta-tags';
 import { useNavigate } from 'react-router-dom';
 
 function SingleMealPage() {
   const [fetchedData, setFetchedData] = useState({ images: [] });
   const [responseFetched, setResponseFetched] = useState(false);
   const navigate = useNavigate();
+  const [currentUrl, setCurrentUrl] = useState('');
 
   useEffect(() => {
     window.scrollTo(0, 0);
     let dish = window.location.pathname.split('/').pop();
     let continent = window.location.pathname.split('/')[1];
     continent = continent.charAt(0).toUpperCase() + continent.slice(1);
+    setCurrentUrl(continent + '/' + dish);
     fetch(
       `https://karkhana-studio-backend.onrender.com/api/data?location=${continent}&food=${dish}&source=Places`
     )
@@ -41,6 +44,15 @@ function SingleMealPage() {
       )}
       {responseFetched && (
         <>
+          <MetaTags>
+            <title>{fetchedData.name}</title>
+            <meta property="og:title" content={fetchedData.name} />
+            <meta property="og:image" content={fetchedData.images[0]} />
+            <meta
+              property="og:url"
+              content={`https://numberoneplaces.com/${currentUrl}`}
+            />
+          </MetaTags>
           <div className="SingleMealPageImageCarousel">
             <Carousel
               infiniteLoop={true}
