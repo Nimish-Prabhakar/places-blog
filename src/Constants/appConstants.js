@@ -151,7 +151,7 @@ export const viewMoreAsia1 = [
   },
   {
     header: 'Gladiator Battlefield',
-    img: 'https://lh5.googleusercontent.com/MF3VN-enQsno-JY0sP0BRFGDKLI8_Q2DOqzXn_gzfLmo-_by4N4O8zysVG1xVcBTXl8=w2400',
+    img: 'https://lh6.googleusercontent.com/JBBItvFJttItj_oMDQtjphdJ4jBbvO-xLzbk5PPs1q3Yzp7f9ETG8Gn-CfbgFteZNyU=w2400',
     subHeader: 'Rome',
     url: '/europe/colosseum',
   },
@@ -160,7 +160,7 @@ export const viewMoreAsia1 = [
 export const viewMoreAsia2 = [
   {
     header: 'Symbol of Freedom',
-    img: 'https://lh6.googleusercontent.com/1Ix3E8AJTISdNHsRWI_O_Qd-bUQF01c9g76g_lUUioZPzxT-8kEMggt8KEy8_dcuoAU=w2400',
+    img: 'https://lh5.googleusercontent.com/YvCQXXXcCzPLWQ5mipv7jFClPpJp7Lkm07Ho8U9bU8un9qbZyp0Q7EdI37LPhqcMia8=w2400',
     subHeader: 'USA',
     url: '/northAmerica/statueofliberty',
   },
