@@ -15,7 +15,7 @@ function TermsCondition() {
         <p>
           Welcome to{' '}
           <Link style={{ color: 'blue', textDecoration: 'none' }} to="/">
-            numberonemeals.com
+            numberoneplaces.com
           </Link>{' '}
           !
         </p>
@@ -23,12 +23,12 @@ function TermsCondition() {
           These terms and conditions outline the rules and regulations for the
           use of weadsmob’s Website, located at{' '}
           <Link style={{ color: 'blue', textDecoration: 'none' }} to="/">
-            numberonemeals.com
+            numberoneplaces.com
           </Link>{' '}
           By accessing this website we assume you accept these terms and
           conditions. Do not continue to use{' '}
           <Link style={{ color: 'blue', textDecoration: 'none' }} to="/">
-            numberonemeals.com
+            numberoneplaces.com
           </Link>{' '}
           if you do not agree to take all of the terms andconditions stated on
           this page.The following terminology applies to these Terms and
@@ -50,7 +50,7 @@ function TermsCondition() {
         <p>
           We employ the use of cookies. By accessing{' '}
           <Link style={{ color: 'blue', textDecoration: 'none' }} to="/">
-            numberonemeals.com
+            numberoneplaces.com
           </Link>
           , you agreed to use cookies in agreement with the weadsmob’s Privacy
           Policy. Most interactive websites use cookies to let us retrieve the
@@ -64,12 +64,12 @@ function TermsCondition() {
           Unless otherwise stated, weadsmob and/or its licensors own the
           intellectual property rights for all material on{' '}
           <Link style={{ color: 'blue', textDecoration: 'none' }} to="/">
-            numberonemeals.com
+            numberoneplaces.com
           </Link>{' '}
           . All intellectual property rights are reserved. You may access this
           from{' '}
           <Link style={{ color: 'blue', textDecoration: 'none' }} to="/">
-            numberonemeals.com
+            numberoneplaces.com
           </Link>{' '}
           for your own personal use subjected to restrictions set in these terms
           and conditions.
@@ -79,25 +79,25 @@ function TermsCondition() {
           <li>
             Republish material from{' '}
             <Link style={{ color: 'blue', textDecoration: 'none' }} to="/">
-              numberonemeals.com
+              numberoneplaces.com
             </Link>{' '}
           </li>
           <li>
             Sell, rent or sub-license material from{' '}
             <Link style={{ color: 'blue', textDecoration: 'none' }} to="/">
-              numberonemeals.com
+              numberoneplaces.com
             </Link>{' '}
           </li>
           <li>
             Reproduce, duplicate or copy material from{' '}
             <Link style={{ color: 'blue', textDecoration: 'none' }} to="/">
-              numberonemeals.com
+              numberoneplaces.com
             </Link>{' '}
           </li>
           <li>
             Redistribute content from{' '}
             <Link style={{ color: 'blue', textDecoration: 'none' }} to="/">
-              numberonemeals.com
+              numberoneplaces.com
             </Link>{' '}
           </li>
         </ul>

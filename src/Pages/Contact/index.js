@@ -121,16 +121,16 @@ function Contact() {
           variant="subtitle2"
           gutterBottom
         >
-          We are foodies and technologists. We work across time zones,
-          hemispheres, cultures and languages. We share a common interest of
-          cooking and trying new dishes whenever we can.
+          We are travel techies. We work across time zones, hemispheres,
+          cultures and languages. We share a common interest of cooking and
+          trying new dishes whenever we can.
         </Typography>
         <Typography
           sx={{ letterSpacing: '1px', marginBottom: '20px' }}
           variant="subtitle2"
           gutterBottom
         >
-          Our dream is travel across the globe and try different cuisines each
+          Our dream is travel across the globe and visit many places, each
           country has to offer and make something out of them according to our
           own taste.
         </Typography>
@@ -147,7 +147,7 @@ function Contact() {
           <IoMail
             style={{ color: 'red', fontSize: '25px', marginRight: '10px' }}
           />
-          <p>nimish.prabhakar@numberonemeals.com</p>
+          <p>help@numberonemeals.com</p>
         </div>
       </div>
       <div className="contactHome">
@@ -234,7 +234,7 @@ function Contact() {
 
         <img
           style={{ height: '600px' }}
-          src="https://lh4.googleusercontent.com/GTzCEe6nlBWfRnTdaJomRE6hcCfENr_PKYRFeYREvZKbz5io403q4nbcjMxDq3kUj0E=w2400"
+          src="https://lh5.googleusercontent.com/rHP2gIVNlkkjBT3MQrqdPuu7gISYT2gXgu97MUCzEzXeryCsjTE42QwDPNGGW9hKj28=w2400"
           alt="contactImage"
         />
       </div>
