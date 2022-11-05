@@ -144,28 +144,28 @@ export const asianPageDishes3 = [
 
 export const viewMoreAsia1 = [
   {
-    header: 'Most Popular Meals',
+    header: 'Most Popular Places',
     img: 'https://lh6.googleusercontent.com/y335bvHJJBMi0ShploedS4U0utjZUdrIvwrK5SlI7NDNF0kr1VT7hWdzvl7VyU4njN0=w2400',
     subHeader: 'Europe',
     url: '/europe',
   },
   {
-    header: 'Seafood Heaven',
+    header: 'Gladiator Battlefield',
     img: 'https://lh5.googleusercontent.com/MF3VN-enQsno-JY0sP0BRFGDKLI8_Q2DOqzXn_gzfLmo-_by4N4O8zysVG1xVcBTXl8=w2400',
-    subHeader: 'Oysters',
-    url: '/europe/oysters',
+    subHeader: 'Rome',
+    url: '/europe/colosseum',
   },
 ];
 
 export const viewMoreAsia2 = [
   {
-    header: 'From Streets of Mexico',
+    header: 'Symbol of Freedom',
     img: 'https://lh6.googleusercontent.com/1Ix3E8AJTISdNHsRWI_O_Qd-bUQF01c9g76g_lUUioZPzxT-8kEMggt8KEy8_dcuoAU=w2400',
-    subHeader: 'Taco',
-    url: '/southAmerica/taco',
+    subHeader: 'USA',
+    url: '/northAmerica/statueofliberty',
   },
   {
-    header: 'Most Popular Meals',
+    header: 'Most Popular places',
     img: 'https://lh3.googleusercontent.com/NqhafBXj29jCdQ72Ob9GRQT3RNUCFE0eyYt6O8EVe95HqBOMG5oYiPaanfPa6Nf0ojE=w2400',
     subHeader: 'Africa',
     url: '/africa',
@@ -370,13 +370,13 @@ export const southAmPageDishes3 = [
 
 export const viewMoreAsia3 = [
   {
-    header: 'Iranian flavored rice',
-    img: 'https://lh4.googleusercontent.com/KvH9ILbOovvh7HdoWpxSrg0STzpNjbc7OU70kbGAl3D3GcovthECdmpw1M9bAjDOYiI=w2400',
-    subHeader: 'Biryani',
-    url: '/asia/biryani',
+    header: 'Mughal Fortress',
+    img: 'https://lh6.googleusercontent.com/CxAiXKWLikp1WwoB3yp6wzffVvKT3Beb3O4g3s0GjNM2IVXZ9AjKquRpfnaf5BvDrLY=w2400',
+    subHeader: 'India',
+    url: '/asia/tajmahal',
   },
   {
-    header: 'Most Popular Meals',
+    header: 'Most Popular Places',
     img: 'https://lh6.googleusercontent.com/DmltL3CBGvJJZ2iM1idZQHjk0n1pvr9O1mQGVRxt2nBtXtQAE8oi_Gwo71Hxf2_aFzY=w2400',
     subHeader: 'South America',
     url: '/south-america',
@@ -385,13 +385,13 @@ export const viewMoreAsia3 = [
 
 export const viewMoreAsia4 = [
   {
-    header: 'Tiny Cakes of love',
-    img: 'https://lh6.googleusercontent.com/t5XDVmaEA7gFNdzOmbFRJmhsPMhpC5JRGJeCudhz9DKUfIy8YU4q5-2o_2AHMuy1Q44=w2400',
-    subHeader: 'Cup Cake',
-    url: '/northAmerica/cupcake',
+    header: 'Tallest Christ Statue',
+    img: 'https://lh3.googleusercontent.com/m8Llhhben27eRdgFaMh7s21SUeJZWdJ3tMlV3XNnUs3kXd0WOetQtZyTorQp5abvXuw=w2400',
+    subHeader: 'Brazil',
+    url: '/northAmerica/christstatue',
   },
   {
-    header: 'Most Popular Meals',
+    header: 'Most Popular Places',
     img: 'https://lh6.googleusercontent.com/r3OJ2hiIHgTec-xC27X_3v4BvXA5MfMHFG49Hf-UJ9sZj4mqDcJAJ6NFdfedX6XUPbQ=w2400',
     subHeader: 'Asia',
     url: '/asia',
