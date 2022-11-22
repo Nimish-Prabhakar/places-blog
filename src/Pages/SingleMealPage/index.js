@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import Typography from '@mui/material/Typography';
@@ -33,6 +33,32 @@ function SingleMealPage() {
         }
       })
       .then(() => setResponseFetched(true));
+  }, []);
+
+  const divRef = useRef();
+
+  const htmlString = `
+   <div id="taboola-below-article-thumbnails"></div>
+    <script type="text/javascript">
+      window._taboola = window._taboola || [];
+      _taboola.push({
+        mode: 'thumbnails-a',
+        container: 'taboola-below-article-thumbnails',
+        placement: 'Below Article Thumbnails',
+        target_type: 'mix',
+      });
+    </script>
+    <script type="text/javascript">
+      window._taboola = window._taboola || [];
+      _taboola.push({ flush: true });
+    </script>
+  `;
+
+  useEffect(() => {
+    const fragment = document
+      .createRange()
+      .createContextualFragment(htmlString);
+    divRef.current.append(fragment);
   }, []);
 
   return (
@@ -124,6 +150,7 @@ function SingleMealPage() {
           </div>
         </>
       )}
+      <div id="ads-ref" ref={divRef}></div>
     </>
   );
 }
