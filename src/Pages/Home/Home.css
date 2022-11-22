@@ -313,3 +313,51 @@
     height: 150px;
   }
 }
+
+@media screen and (max-width: 1280px) {
+  .carImages {
+    height: 22vh;
+  }
+  .homeHeaderSubContent {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .middle {
+    top: 15%;
+  }
+  .contImg:hover .content-details {
+    top: 57%;
+  }
+  .content-list {
+    letter-spacing: 1px;
+  }
+  .contactHomeImg {
+    height: 500px;
+  }
+  .contactHomeSendBtn {
+    width: 98%;
+  }
+  .vegetablesImg {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .SingleMealPageContentHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .SingleMealPageContentFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .SingleMealPageFlag {
+    margin-top: 20px;
+    height: 50px;
+  }
+}
