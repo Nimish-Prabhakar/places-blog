@@ -63,6 +63,7 @@ function SingleMealPage() {
 
   return (
     <>
+      <div id="ads-ref" ref={divRef}></div>
       {!responseFetched && (
         <div className="circularProgress">
           <CircularProgress size={100} color="success" />
@@ -150,7 +151,6 @@ function SingleMealPage() {
           </div>
         </>
       )}
-      <div id="ads-ref" ref={divRef}></div>
     </>
   );
 }
