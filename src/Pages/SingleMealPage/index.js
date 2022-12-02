@@ -35,6 +35,21 @@ function SingleMealPage() {
       .then(() => setResponseFetched(true));
   }, []);
 
+  useEffect(() => {
+    if (window.innerWidth > 600) {
+      setTimeout(() => {
+        const adsArea = document.getElementById('ads-ref');
+        const elements1 = document.querySelectorAll(`[data-item-id^="~~V1~~"]`);
+
+        elements1.forEach((element) => {
+          element.style.width = '10%';
+        });
+        adsArea.style.width = '1200px';
+        adsArea.style.marginLeft = '50px';
+      }, 3000);
+    }
+  }, [responseFetched]);
+
   const divRef = useRef();
 
   const htmlString = `
