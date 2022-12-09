@@ -42,7 +42,7 @@ function SingleMealPage() {
         const elements1 = document.querySelectorAll(`[data-item-id^="~~V1~~"]`);
 
         elements1.forEach((element) => {
-          element.style.width = '10%';
+          element.style.width = '15%';
         });
         adsArea.style.width = '1200px';
         adsArea.style.marginLeft = '50px';
@@ -78,7 +78,6 @@ function SingleMealPage() {
 
   return (
     <>
-      <div id="ads-ref" ref={divRef}></div>
       {!responseFetched && (
         <div className="circularProgress">
           <CircularProgress size={100} color="success" />
@@ -166,6 +165,7 @@ function SingleMealPage() {
           </div>
         </>
       )}
+      <div id="ads-ref" ref={divRef}></div>
     </>
   );
 }
